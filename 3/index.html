@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treći zadatak</title>
+</head>
+
+<body>
+    <h2>Forma</h2>
+    <form>
+        <div>
+            <label>Ime i prezime</label>
+            <br>
+            <input type="text" name="imeiprezime" required>
+        </div>
+        <div>
+            <label>Adresa</label>
+            <br>
+            <input type="text" name="adresa" required>
+        </div>
+        <div>
+            <label>E-mail</label>
+            <br>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <fieldset style="width: 70px;">
+                <legend>Pol</legend><br>
+                <input type="radio" name="pol" id="polm" value="M"> <label for="polm">M</label> <br>
+                <input type="radio" name="pol" id="polz" value="Ž" checked> <label for="polz">Ž</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="kurs">Kurs</label> <br>
+            <select name="kurs" id="kurs">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="c++">C++</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="OK">
+        </div>
+    </form>
+</body>
+
+</html>
